@@ -1,15 +1,38 @@
 body{
     background: rgb(123, 196, 245);
-    background: linear-gradient(90deg, rgb(92, 182, 255) 0%, rgb(194, 21, 21) 50%, rgb(221, 172, 103) 100%);
+    background: linear-gradient(90deg, rgb(151 172 187) 0%, rgb(237 227 227) 50%, rgb(245 195 126) 100%);
 }
+
+.img1{
+    vertical-align: middle;
+    margin-top: 25%;
+    border-radius: 10px;
+    max-width: 167%;
+    height: auto;
+    margin-left: 10%;
+}
+
+
+
 .navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    margin-top: 15px;
-    /* margin-left: -8px; */
+    --mdb-navbar-box-shadow: 0 4px 12px 0 rgba(0,0,0,0.07),0 2px 4px rgba(0,0,0,0.05);
+    --mdb-navbar-padding-top: 0.5625rem;
+    --mdb-navbar-brand-img-margin-right: 0.25rem;
+    box-shadow: var(--mdb-navbar-box-shadow);
+    padding-top: var(--mdb-navbar-padding-top);
+    margin-top: 30px !important;
+}
+.h2, h2 {
+    margin-top: 90px  !important;
+    font-size: 6rem !important;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+    margin-top: 45px;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+    margin-top: 66px !important;
 }

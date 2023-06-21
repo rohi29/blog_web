@@ -42,3 +42,10 @@ form {
     display: block;
     margin-top: 10%;
 }
+.form-outline .form-control {
+    min-height: auto;
+    padding: .32rem .75rem;
+    border: 0;
+    background: white !important; 
+    transition: all .2s linear;
+}
